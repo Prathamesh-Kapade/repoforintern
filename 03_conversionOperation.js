@@ -22,8 +22,8 @@ console.log(booleanIsLoggedIn);
 //""=> false
 //"abc"=> true
 
-let someNumer=22;
-let stringNumber = String(someNumer);
+let someNumber=22;
+let stringNumber = String(someNumber);
 console.log(stringNumber);
 console.log(typeof stringNumber);
 

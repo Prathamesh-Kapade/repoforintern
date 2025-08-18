@@ -5,8 +5,6 @@ var accountPasword="1223232";
 accountCity="Pune";
 let accoutState;
 
-
-
 //accountId=2223;
 
 accountEmail ="prathamesh@.com";
