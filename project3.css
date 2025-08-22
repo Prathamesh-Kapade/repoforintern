@@ -1,0 +1,21 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#banner{
+    color: white;
+}
+
+#clock{
+    font-size:40px;
+    width: 500px;
+    padding :20px 50px;
+    border:2px solid white;
+    background-color: cadetblue;
+}

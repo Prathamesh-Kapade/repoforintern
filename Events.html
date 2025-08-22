@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <img
+        id="owl"
+        src="virat_kohli.jpg"
+        alt="vk"
+        height="300px"
+        width="200px"
+      />
+      <img id="owl2" src="vk.jpeg" alt="vk" height="300px" width="200px" />
+    </div>
+  </body>
+
+  <script>
+    //type, timestamp,defaultPrevented
+    //target, toElement,secElement,currentTarget,
+    //clientX,clientY,screenX,screenY
+    //altkey,ctrlkey,shiftkey,keycode
+
+
+//     document.getElementById("owl").addEventListener("click", function (e) {
+//      console.log("clicked owl1");
+//     },false);// bubbling if true then its capturing phase 
+
+//     document.getElementById("owl2").addEventListener("click", function (e) {
+//       console.log("clicked owl2");
+//       e.stopPropagation();
+//     },false);// bubbling - bottom to top // capturing - top to bottom
+    
+    document.querySelector("#owl").addEventListener('click',function(e){
+    //console.log(e.target.parentNode)
+    console.log(e.target.tagName);
+    if(e.target.tagName === 'OWL')
+    console.log(e.target.id)
+    let removeIt=e.target.parentNode
+    removeIt.remove();
+    //removeIt.parentNode.removeChild(removeIt)
+     
+   })
+ 
+
+  </script>
+</html>

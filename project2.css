@@ -1,0 +1,93 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+form p {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius:6px;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: #219150;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #dadde0;
+  border-radius: 6px;
+  color:black;
+}
+
+#weight-guide {
+  margin-top: 20px;
+  background-color: #1abcb9;
+  padding: 15px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+#weight-guide h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+#weight-guide p {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+

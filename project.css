@@ -1,0 +1,92 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #005fa3;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.canvas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.canvas div[class^="btn"] {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  border: 2px solid #ccc;
+}
+
+#red { 
+    background-color: #ff6b6b;
+ }
+#green { 
+    background-color: #6bcf63;
+ }
+#blue {
+     background-color: #4d9de0; 
+    }
+#yellow { 
+    background-color: #f7c948;
+ }
+
+.canvas div[class^="btn"]:hover {
+  transform: scale(1.1);
+  border-color: #888;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+h2 span {
+  display: block;
+  font-size: 1rem;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
